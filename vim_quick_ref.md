@@ -23,3 +23,11 @@
 | Command | Description | 
 |---|---|
 |visual > or < | indent block |
+
+### Text Manipulation 
+
+| Command | Description | 
+|---|---|
+| g~ then a movement | Toggle case "HellO" to "hELLo" | 
+| with gU then a movement | Uppercase "HellO" to "HELLO| 
+| with gu then a movement | Lowercase "HellO" to "hello| 
