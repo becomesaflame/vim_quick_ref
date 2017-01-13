@@ -31,3 +31,6 @@
 | g~ then a movement | Toggle case "HellO" to "hELLo" | 
 | with gU then a movement | Uppercase "HellO" to "HELLO| 
 | with gu then a movement | Lowercase "HellO" to "hello| 
+| visual select, then ~ | Toggle case "HellO" to "hELLo" | 
+| visual select, then U | Uppercase "HellO" to "HELLO | 
+| visual select, then u | Lowercase "HellO" to "hello |
