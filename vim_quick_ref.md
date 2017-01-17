@@ -19,6 +19,7 @@
 | Ctrl-i | Jump back forwards to next cursor location|  
 | Ctrl-e | Scroll screen up without moving cursor | 
 | Ctrl-y | Scroll screen down without moving cursor | 
+| % | Jump to matching bracket or parentheses | 
   
 ### Code Editing  
   
