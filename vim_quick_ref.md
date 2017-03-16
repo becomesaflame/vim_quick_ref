@@ -37,3 +37,14 @@
 | visual select, then ~ | Toggle case "HellO" to "hELLo" | 
 | visual select, then U | Uppercase "HellO" to "HELLO | 
 | visual select, then u | Lowercase "HellO" to "hello |
+
+### Search  
+  
+| Command | Description | 
+|---|---|
+| :%s/foo/bar    | search and replace first match | 
+| :%s/foo/bar/g  | global search and replace |
+| :%s/foo/bar/gc | global search and replace, prompting for each replace |
+| :%s/foo\c/bar/g | global search (case insensitive) and replace |
+
+Note: instead of `/` any non-alphanumeric character other than `\`, `"`or `|` can be used as delimiter 
