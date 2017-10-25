@@ -32,6 +32,7 @@
 | \<leader\>c\<space\> | Toggles the comment state of the selected line(s). Based on top line (NERDCommenter) |
 | \<leader\>cy | Same as \<leader\>cc except that the commented line(s) are yanked first (NERDCommenter) |
 | \<leader\>cu | Uncomments the selected line(s) (NERDCommenter) |
+| \<leader>w | Remove all whitespace from file. Custom command: `noremap <leader>w :%s/\s\+$//g<CR>` |
 
 Note: default \<leader\> for NERDCommenter is `\` 
 
