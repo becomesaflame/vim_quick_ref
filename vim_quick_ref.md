@@ -20,6 +20,8 @@
 | Ctrl-e | Scroll screen up without moving cursor | 
 | Ctrl-y | Scroll screen down without moving cursor | 
 | % | Jump to matching bracket or parentheses | 
+| t\<x> | Jump to next instance of character `x` |
+| T\<x> | Jump to previous instance of character `x` |
   
 ### Code Editing  
   
