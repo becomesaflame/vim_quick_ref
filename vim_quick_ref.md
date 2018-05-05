@@ -55,5 +55,9 @@ Note: default \<leader\> for NERDCommenter is `\`
 | :%s/foo/bar/g  | global search and replace |
 | :%s/foo/bar/gc | global search and replace, prompting for each replace |
 | :%s/foo\c/bar/g | global search (case insensitive) and replace |
+| :.,$s/foo/bar/g | search and replace from current line to end of file |
+| :'<,'>s/foo/bar/g | search and replace in visual selection (including full lines at beginning and end) |
+| :.,.+10s/foo/bar/g | search and replace in next 10 lines |
+
 
 Note: instead of `/` any non-alphanumeric character other than `\`, `"`or `|` can be used as delimiter 
