@@ -7,6 +7,10 @@
 | . | Repeat last change | 
 | 5. | Repeat last change 5 times | 
 | @ | Repeat last command line change |
+| vim +324 fileName | When launching vim, open to line number 324 |
+| vim +/searchTermHere fileName | When launching vim, search for searchTermHere |
+| vim +<any : command> fileName | Run any : command when launching vim |
+
   
 ### Movement  
   
